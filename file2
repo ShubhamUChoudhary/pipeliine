@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull') { 
             steps {
-                git credentialsId: '1', url: 'https://github.com/ShubhamUChoudhary/pipeliine.git'
+               
             }
         }
         stage('Build') { 
