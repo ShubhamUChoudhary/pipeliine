@@ -6,9 +6,9 @@ pipeline {
                 git credentialsId: '1', url: 'https://github.com/ShubhamUChoudhary/pipeliine.git'
             }
         }
-        stage('Test') { 
+        stage('Build') { 
             steps {
-                // 
+                
             }
         }
         stage('Deploy') { 
